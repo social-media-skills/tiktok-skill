@@ -1,0 +1,169 @@
+{
+ "skill": "tiktok-skill",
+ "evals": [
+  {
+   "name": "post-my-video",
+   "prompt": "Post ~/Movies/demo.mov to my TikTok tonight.",
+   "expect": [
+    "uses only the file the user pointed to",
+    "reads the account's limits with social_accounts_get_platform_inputs",
+    "runs tt_check.py and fixes frame rate, codec and 9:16 into fixed/",
+    "writes a three-layer hook and renders it with video.py hook",
+    "picks a cover from video.py frames",
+    "asks the user to choose privacy, with no default",
+    "shows preview/index.html with the posting panel and waits for a yes"
+   ]
+  },
+  {
+   "name": "three-accounts",
+   "prompt": "Post this clip to my 3 TikTok accounts.",
+   "expect": [
+    "flags that the same file on 3 accounts is reused material",
+    "makes a real version per account (hook, cut, order or language)",
+    "uses each account's own time zone",
+    "one request per account",
+    "privacy chosen per account"
+   ]
+  },
+  {
+   "name": "trending-sound",
+   "prompt": "Post it with the trending sound everyone uses right now.",
+   "expect": [
+    "says the API can't add sounds",
+    "sends it as an inbox draft (MEDIA_UPLOAD)",
+    "tells the user to add the sound in the app",
+    "keeps within 5 pending drafts per account"
+   ]
+  },
+  {
+   "name": "branded-private",
+   "prompt": "This is a paid partnership. Post it as only me first so I can check it.",
+   "expect": [
+    "says branded content can't be private on TikTok",
+    "offers friends or everyone, or an inbox draft to check it first",
+    "sets brandedContent and shows the Paid partnership label and consent line"
+   ]
+  },
+  {
+   "name": "too-long",
+   "prompt": "Post this 14-minute video to TikTok.",
+   "expect": [
+    "checks the account's max video length",
+    "flags that 14 minutes is over the account's limit (and the API's 10-minute ceiling)",
+    "asks which part to keep, or suggests splitting"
+   ]
+  },
+  {
+   "name": "photo-post-from-idea",
+   "prompt": "Make a TikTok photo post about 5 mistakes new runners make.",
+   "expect": [
+    "renders 1080x1920 slides with render_slides.py --no-instagram",
+    "slide 1 is the hook, one idea per slide, one ask at the end",
+    "no invented statistics",
+    "photo post settings: only Allow Comment, optional autoAddMusic"
+   ]
+  },
+  {
+   "name": "hashtags",
+   "prompt": "Add #fyp #foryou #viral #trending #explore #tiktok #science.",
+   "expect": [
+    "keeps 5 or fewer",
+    "replaces #fyp and similar with tags that name the topic",
+    "explains the 5-hashtag limit is shown to many accounts but not confirmed by TikTok"
+   ]
+  },
+  {
+   "name": "someone-elses-video",
+   "prompt": "Repost this viral clip I downloaded from another creator.",
+   "expect": [
+    "declines to post someone else's video",
+    "explains TikTok keeps unoriginal or reused material out of For You",
+    "suggests the user's own take filmed by them"
+   ]
+  },
+  {
+   "name": "not-connected",
+   "prompt": "Schedule these to TikTok.",
+   "context": "WoopSocial is not connected.",
+   "expect": [
+    "gives only the connect path for the current agent",
+    "mentions the free plan for 2 social accounts and that no TikTok developer app or audit is needed",
+    "keeps working on the posts while the user connects",
+    "never claims it posted"
+   ]
+  },
+  {
+   "name": "ai-photo-post",
+   "prompt": "Post these AI-generated realistic product photos as a TikTok photo post.",
+   "expect": [
+    "says realistic AI content needs TikTok's AI label",
+    "notes WoopSocial sets the AI flag on videos only",
+    "puts 'add the AI label in the app' on the checklist"
+   ]
+  },
+  {
+   "name": "what-worked",
+   "prompt": "Which of my TikToks worked last month?",
+   "expect": [
+    "reads social_account_posts_list into metrics.json",
+    "runs log.py results",
+    "ranks per 1,000 views within format and account at day 7",
+    "asks for watch time and completion from TikTok Studio",
+    "never invents numbers"
+   ]
+  },
+  {
+   "name": "best-time",
+   "prompt": "What's the best time to post on TikTok?",
+   "expect": [
+    "says there's no universal best time",
+    "points to TikTok Studio follower activity",
+    "uses log.py results once there are enough posts",
+    "no generic table"
+   ]
+  },
+  {
+   "name": "own-landscape-video",
+   "prompt": "Post my 16:9 kitchen video (cooking.mp4) to TikTok tomorrow evening.",
+   "expect": [
+    "Asks before cropping: shows what a 9:16 crop loses, offers montage with x per shot or the framed layout (own footage only)",
+    "Asks the user to choose privacy; never fills it in",
+    "Cover taken from the first second"
+   ]
+  },
+  {
+   "name": "video-draft-with-sound",
+   "prompt": "I want a trending sound on my TikTok video, schedule it for Friday 7pm.",
+   "expect": [
+    "Sends it as an inbox draft (MEDIA_UPLOAD), scheduled 2 hours before 7pm",
+    "Explains the caption must be pasted in the app and lists it in schedule.md",
+    "No privacyLevel or autoAddMusic in the draft request"
+   ]
+  },
+  {
+   "name": "same-language-accounts",
+   "prompt": "Post this photo post to both my US and UK TikTok accounts.",
+   "expect": [
+    "Gives each account its own idea or angle, not the same slides with new words",
+    "Flags the same file on two accounts"
+   ]
+  },
+  {
+   "name": "short-max-account",
+   "prompt": "Post my 4-minute video to TikTok.",
+   "expect": [
+    "Reads the account's max video length from WoopSocial before checking",
+    "If the account allows 180 s, says so and offers to cut it, instead of posting"
+   ]
+  },
+  {
+   "name": "nasa-repost",
+   "prompt": "Take this NASA clip and post it to TikTok as is with a hook on top.",
+   "expect": [
+    "Explains a hook on someone else's single clip is reused material",
+    "Offers a montage with own on-screen points and no original narration, or the user's own voice",
+    "Credits NASA in the caption"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+[
+ {
+  "level": "warn",
+  "post": "drop",
+  "item": "caption (es)",
+  "message": "first line is 89 characters: TikTok shows about one line over the video; put the hook first"
+ },
+ {
+  "level": "warn",
+  "post": "drop",
+  "item": "draft (es)",
+  "message": "inbox draft: it lands in the TikTok inbox; the user adds the sound, checks the caption, picks privacy and disclosure, then posts"
+ },
+ {
+  "level": "warn",
+  "post": "fresh",
+  "item": "draft",
+  "message": "inbox draft: it lands in the TikTok inbox; the user adds the sound, pastes the caption (video drafts arrive without it), picks privacy and disclosure, then posts"
+ }
+]

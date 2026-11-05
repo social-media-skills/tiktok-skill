@@ -1,0 +1,41 @@
+{
+ "theme": {
+  "bg": "#0E1726",
+  "fg": "#ffffff",
+  "accent": "#4FD1E8",
+  "style": "auto"
+ },
+ "slides": [
+  {
+   "text": "Si toda el agua\nde la Tierra fuera una gota,\n¿qué tamaño tendría?",
+   "position": "upper",
+   "image": "media/earth.jpg"
+  },
+  {
+   "text": "Todos los océanos,\nlagos, ríos, glaciares\ny nubes",
+   "position": "top",
+   "image": "media/nasa-earth.jpg"
+  },
+  {
+   "text": "Juntos en\nuna sola bola",
+   "position": "bottom",
+   "image": "media/nasa-pull.jpg"
+  },
+  {
+   "text": "1.385 km\nde ancho",
+   "position": "bottom",
+   "image": "media/nasa-drop.jpg",
+   "big": true
+  },
+  {
+   "text": "Menos de la mitad\ndel ancho\nde la Luna",
+   "position": "center",
+   "backdrop": "media/earth.jpg"
+  },
+  {
+   "text": "Guárdalo para\ntu próximo trivial",
+   "position": "top",
+   "image": "media/nasa-glass.jpg"
+  }
+ ]
+}

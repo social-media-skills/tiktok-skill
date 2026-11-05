@@ -1,0 +1,31 @@
+{
+ "beats": [
+  {
+   "start": 0,
+   "end": 2.4,
+   "text": "Only 2.5% of Earth's water is fresh",
+   "style": "highlight"
+  },
+  {
+   "start": 2.4,
+   "end": 5.9,
+   "text": "Two thirds of it is ice"
+  },
+  {
+   "start": 5.9,
+   "end": 9.4,
+   "text": "Almost a third is underground"
+  },
+  {
+   "start": 9.4,
+   "end": 12.9,
+   "text": "Lakes, rivers and the rest: about 1%"
+  },
+  {
+   "start": 12.9,
+   "end": 14.9,
+   "text": "That's all the fresh water we can reach",
+   "y": 400
+  }
+ ]
+}

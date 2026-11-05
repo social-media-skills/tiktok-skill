@@ -1,0 +1,41 @@
+{
+ "theme": {
+  "bg": "#0E1726",
+  "fg": "#ffffff",
+  "accent": "#4FD1E8",
+  "style": "auto"
+ },
+ "slides": [
+  {
+   "text": "If all of Earth's water\nwere one drop,\nhow big would it be?",
+   "position": "upper",
+   "image": "media/earth.jpg"
+  },
+  {
+   "text": "Every ocean, lake,\nriver, glacier\nand cloud",
+   "position": "top",
+   "image": "media/nasa-earth.jpg"
+  },
+  {
+   "text": "Pulled into\none ball",
+   "position": "bottom",
+   "image": "media/nasa-pull.jpg"
+  },
+  {
+   "text": "860 miles\nwide",
+   "position": "bottom",
+   "image": "media/nasa-drop.jpg",
+   "big": true
+  },
+  {
+   "text": "Less than half\nas wide as\nthe Moon",
+   "position": "center",
+   "backdrop": "media/earth.jpg"
+  },
+  {
+   "text": "Save this for your\nnext quiz night",
+   "position": "top",
+   "image": "media/nasa-glass.jpg"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+[
+ {
+  "file": "frame-01-0.8s.jpg",
+  "time": 0.8,
+  "score": 1397.5
+ },
+ {
+  "file": "frame-02-2.0s.jpg",
+  "time": 1.98,
+  "score": 1685.5
+ },
+ {
+  "file": "frame-03-3.2s.jpg",
+  "time": 3.16,
+  "score": 533.3
+ },
+ {
+  "file": "frame-04-4.3s.jpg",
+  "time": 4.35,
+  "score": 581.4
+ },
+ {
+  "file": "frame-05-10.9s.jpg",
+  "time": 10.85,
+  "score": 525.0
+ },
+ {
+  "file": "frame-06-12.0s.jpg",
+  "time": 12.04,
+  "score": 540.1
+ },
+ {
+  "file": "frame-07-13.2s.jpg",
+  "time": 13.22,
+  "score": 843.7
+ },
+ {
+  "file": "frame-08-14.4s.jpg",
+  "time": 14.4,
+  "score": 822.4
+ }
+]

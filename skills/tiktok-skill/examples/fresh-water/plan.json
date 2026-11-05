@@ -1,0 +1,123 @@
+{
+ "timezone": "America/New_York",
+ "note": "Made-up example accounts; times are placeholders. Privacy for @earthinnumbers was chosen by the account owner in this example.",
+ "accounts": {
+  "en": {
+   "handle": "@earthinnumbers",
+   "socialAccountId": "<id from social_accounts_list>",
+   "timezone": "America/New_York",
+   "times": [
+    "18:30"
+   ],
+   "privacyOptions": [
+    "PUBLIC_TO_EVERYONE",
+    "MUTUAL_FOLLOW_FRIENDS",
+    "SELF_ONLY"
+   ],
+   "commentAvailable": true,
+   "duetAvailable": true,
+   "stitchAvailable": true,
+   "max_video_s": 180,
+   "name": "Earth in Numbers"
+  },
+  "es": {
+   "handle": "@latierraennumeros",
+   "socialAccountId": "<id from social_accounts_list>",
+   "timezone": "Europe/Madrid",
+   "times": [
+    "20:00"
+   ],
+   "privacyOptions": [
+    "PUBLIC_TO_EVERYONE",
+    "MUTUAL_FOLLOW_FRIENDS",
+    "SELF_ONLY"
+   ],
+   "commentAvailable": true,
+   "duetAvailable": true,
+   "stitchAvailable": true,
+   "max_video_s": 180,
+   "name": "La Tierra en números"
+  }
+ },
+ "posts": [
+  {
+   "id": "fresh",
+   "format": "video",
+   "media": [
+    "video/fresh-water.mp4"
+   ],
+   "cover": "video/cover.jpg",
+   "hook": {
+    "text": "Only 2.5% of Earth's water is fresh"
+   },
+   "beats": "beats.json",
+   "caption": "Only 2.5% of Earth's water is fresh, and two thirds of that is ice.\nAlmost all the rest is underground.\n\nFigures: USGS. Animation: NASA/JPL-Caltech, Earth Water Budget. Follow for the planet in numbers.\n\n#freshwater #groundwater #glaciers #earthscience",
+   "settings": {
+    "allowComment": true
+   },
+   "targets": [
+    {
+     "account": "en",
+     "settings": {
+      "draft": true
+     },
+     "at": "2026-11-16T18:30"
+    }
+   ],
+   "checklist": [
+    "Open the TikTok inbox draft, add a sound, paste the caption from schedule.md, choose privacy, post",
+    "Reply to comments in the first hour"
+   ],
+   "source": "third_party"
+  },
+  {
+   "id": "drop",
+   "format": "photo",
+   "media": [
+    "slides/en/tiktok/slide-01.jpg",
+    "slides/en/tiktok/slide-02.jpg",
+    "slides/en/tiktok/slide-03.jpg",
+    "slides/en/tiktok/slide-04.jpg",
+    "slides/en/tiktok/slide-05.jpg",
+    "slides/en/tiktok/slide-06.jpg"
+   ],
+   "slides": "slides-en.json",
+   "caption": "If all of Earth's water were one drop, how big would it be? Swipe to the end.\n\nSave it for quiz night.\n\n#earthscience #water #space #funfacts\n\nFigures and images: NASA/JPL, NASA.",
+   "settings": {
+    "allowComment": true,
+    "autoAddMusic": true
+   },
+   "targets": [
+    {
+     "account": "en",
+     "settings": {
+      "privacy": "PUBLIC_TO_EVERYONE",
+      "privacy_from": "user"
+     },
+     "at": "2026-11-17T18:30"
+    },
+    {
+     "account": "es",
+     "media": [
+      "slides/es/tiktok/slide-01.jpg",
+      "slides/es/tiktok/slide-02.jpg",
+      "slides/es/tiktok/slide-03.jpg",
+      "slides/es/tiktok/slide-04.jpg",
+      "slides/es/tiktok/slide-05.jpg",
+      "slides/es/tiktok/slide-06.jpg"
+     ],
+     "slides": "slides-es.json",
+     "caption": "Si toda el agua de la Tierra fuera una gota, ¿qué tamaño tendría? Desliza hasta el final.\n\nGuárdalo para el trivial.\n\n#ciencia #agua #espacio #curiosidades\n\nDatos e imágenes: NASA/JPL, NASA.",
+     "settings": {
+      "draft": true,
+      "autoAddMusic": false
+     },
+     "at": "2026-11-16T20:00"
+    }
+   ],
+   "checklist": [
+    "Spanish account: open the TikTok inbox draft, add a sound, choose privacy, post"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "content": [
+  {
+   "text": "Si toda el agua de la Tierra fuera una gota, ¿qué tamaño tendría? Desliza hasta el final.\n\nGuárdalo para el trivial.\n\n#ciencia #agua #espacio #curiosidades\n\nDatos e imágenes: NASA/JPL, NASA.",
+   "media": [
+    {
+     "type": "MEDIA_LIBRARY",
+     "mediaId": "<mediaId for slide-01.jpg>"
+    },
+    {
+     "type": "MEDIA_LIBRARY",
+     "mediaId": "<mediaId for slide-02.jpg>"
+    },
+    {
+     "type": "MEDIA_LIBRARY",
+     "mediaId": "<mediaId for slide-03.jpg>"
+    },
+    {
+     "type": "MEDIA_LIBRARY",
+     "mediaId": "<mediaId for slide-04.jpg>"
+    },
+    {
+     "type": "MEDIA_LIBRARY",
+     "mediaId": "<mediaId for slide-05.jpg>"
+    },
+    {
+     "type": "MEDIA_LIBRARY",
+     "mediaId": "<mediaId for slide-06.jpg>"
+    }
+   ]
+  }
+ ],
+ "socialAccounts": [
+  {
+   "platform": "TIKTOK",
+   "socialAccountId": "<id from social_accounts_list>",
+   "postType": "PHOTO",
+   "postMode": "MEDIA_UPLOAD",
+   "allowComment": true,
+   "allowDuet": false,
+   "allowStitch": false,
+   "isYourBrand": false,
+   "isBrandedContent": false
+  }
+ ],
+ "schedule": {
+  "type": "SCHEDULE_FOR_LATER",
+  "scheduledFor": "2026-11-16T17:00:00Z"
+ }
+}

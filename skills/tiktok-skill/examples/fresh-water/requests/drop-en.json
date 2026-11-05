@@ -1,0 +1,52 @@
+{
+ "content": [
+  {
+   "text": "If all of Earth's water were one drop, how big would it be? Swipe to the end.\n\nSave it for quiz night.\n\n#earthscience #water #space #funfacts\n\nFigures and images: NASA/JPL, NASA.",
+   "media": [
+    {
+     "type": "MEDIA_LIBRARY",
+     "mediaId": "<mediaId for slide-01.jpg>"
+    },
+    {
+     "type": "MEDIA_LIBRARY",
+     "mediaId": "<mediaId for slide-02.jpg>"
+    },
+    {
+     "type": "MEDIA_LIBRARY",
+     "mediaId": "<mediaId for slide-03.jpg>"
+    },
+    {
+     "type": "MEDIA_LIBRARY",
+     "mediaId": "<mediaId for slide-04.jpg>"
+    },
+    {
+     "type": "MEDIA_LIBRARY",
+     "mediaId": "<mediaId for slide-05.jpg>"
+    },
+    {
+     "type": "MEDIA_LIBRARY",
+     "mediaId": "<mediaId for slide-06.jpg>"
+    }
+   ]
+  }
+ ],
+ "socialAccounts": [
+  {
+   "platform": "TIKTOK",
+   "socialAccountId": "<id from social_accounts_list>",
+   "postType": "PHOTO",
+   "postMode": "DIRECT_POST",
+   "privacyLevel": "PUBLIC_TO_EVERYONE",
+   "allowComment": true,
+   "allowDuet": false,
+   "allowStitch": false,
+   "isYourBrand": false,
+   "isBrandedContent": false,
+   "autoAddMusic": true
+  }
+ ],
+ "schedule": {
+  "type": "SCHEDULE_FOR_LATER",
+  "scheduledFor": "2026-11-17T23:30:00Z"
+ }
+}

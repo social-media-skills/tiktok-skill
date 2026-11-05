@@ -1,0 +1,35 @@
+{
+ "content": [
+  {
+   "text": "Only 2.5% of Earth's water is fresh, and two thirds of that is ice.\nAlmost all the rest is underground.\n\nFigures: USGS. Animation: NASA/JPL-Caltech, Earth Water Budget. Follow for the planet in numbers.\n\n#freshwater #groundwater #glaciers #earthscience",
+   "media": [
+    {
+     "type": "MEDIA_LIBRARY",
+     "mediaId": "<mediaId for fresh-water.mp4>"
+    }
+   ]
+  }
+ ],
+ "socialAccounts": [
+  {
+   "platform": "TIKTOK",
+   "socialAccountId": "<id from social_accounts_list>",
+   "postType": "VIDEO",
+   "postMode": "MEDIA_UPLOAD",
+   "allowComment": true,
+   "allowDuet": false,
+   "allowStitch": false,
+   "isYourBrand": false,
+   "isBrandedContent": false,
+   "isAiGeneratedContent": false,
+   "cover": {
+    "type": "MEDIA_LIBRARY",
+    "mediaId": "<mediaId for the cover>"
+   }
+  }
+ ],
+ "schedule": {
+  "type": "SCHEDULE_FOR_LATER",
+  "scheduledFor": "2026-11-16T21:30:00Z"
+ }
+}

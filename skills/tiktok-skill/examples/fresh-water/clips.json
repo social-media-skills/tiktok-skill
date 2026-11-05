@@ -1,0 +1,35 @@
+{
+ "note": "Clips from NASA/JPL's Earth Water Budget animation (download link in CREDITS.md, saved as media/nasa-water-budget-source.mp4). Only moments without the animation's own number labels.",
+ "clips": [
+  {
+   "file": "media/nasa-water-budget-source.mp4",
+   "start": 13.0,
+   "end": 15.4,
+   "x": 0.5
+  },
+  {
+   "file": "media/nasa-water-budget-source.mp4",
+   "start": 89.5,
+   "end": 93.0,
+   "x": 0.2
+  },
+  {
+   "file": "media/nasa-water-budget-source.mp4",
+   "start": 95.0,
+   "end": 98.5,
+   "x": 0.5
+  },
+  {
+   "file": "media/nasa-water-budget-source.mp4",
+   "start": 160.0,
+   "end": 163.5,
+   "x": 0.58
+  },
+  {
+   "file": "media/nasa-water-budget-source.mp4",
+   "start": 69.5,
+   "end": 71.5,
+   "x": 0.48
+  }
+ ]
+}

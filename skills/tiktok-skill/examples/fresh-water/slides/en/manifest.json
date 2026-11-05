@@ -1,0 +1,33 @@
+{
+  "slides": 6,
+  "font": "TikTokSans.ttf",
+  "files": {
+    "tiktok": [
+      {
+        "path": "tiktok/slide-01.jpg",
+        "bytes": 643776
+      },
+      {
+        "path": "tiktok/slide-02.jpg",
+        "bytes": 240196
+      },
+      {
+        "path": "tiktok/slide-03.jpg",
+        "bytes": 144259
+      },
+      {
+        "path": "tiktok/slide-04.jpg",
+        "bytes": 127572
+      },
+      {
+        "path": "tiktok/slide-05.jpg",
+        "bytes": 116664
+      },
+      {
+        "path": "tiktok/slide-06.jpg",
+        "bytes": 82700
+      }
+    ]
+  },
+  "contactSheet": "contact-sheet.png"
+}
